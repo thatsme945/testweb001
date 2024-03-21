@@ -1,0 +1,88 @@
+h1,h2,h3,h4,p,strong,em,address{color:#6068A3}
+/* p{color:rgb(100, 200, 200)} */
+/* strong,em{color:rgb(70, 182, 182)} */
+pre{color:#55A9D5}
+li,dl{color:rgb(69, 143, 118)}
+code{color:fuchsia}
+var{color:dodgerblue}
+kbd{color:coral}
+samp{color:gold}
+
+pre{font-size:15px}
+
+
+hr{background-color:#5B65A1; height:1.5px; border:none;}
+/* 设置分割线 */
+
+
+/* 页眉 */
+.logo {
+    background: left / cover url('logo001.jpg');
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    font:
+      bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script',
+      fantasy;
+    color:#daffff;
+    text-shadow: #000 2px 2px 0.2rem;
+  }
+  
+  header > h1 {
+    margin-bottom: 0;
+  }
+  
+  header > time {
+    font: italic 0.7rem sans-serif;
+  }
+
+
+  header img {
+    display: block;
+    height: 60px;
+    padding-top: 20.15px;
+  }
+
+/* 导航栏 */
+ 
+nav {
+    height: 50px;
+    flex: 100%;
+    display: flex;
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
+  
+  nav a, nav span {
+    display: inline-block;
+    font-size: 1rem;
+    height: 2rem;
+    line-height: 1.7;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #5D64A0;
+  }
+  
+
+/* 设置页脚 */
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #CBE6F7;
+    color: #fff;
+  }
+  
+  
